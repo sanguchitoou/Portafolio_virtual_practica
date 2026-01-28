@@ -5,8 +5,8 @@ body {
 
 /* Banner principal */
 .banner {
-    background-color: #4a6fa5; /* Color temporal, puedes cambiarlo por tu imagen de fondo */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(''); /* Aquí puedes agregar tu imagen de fondo */
+    background-color: #000000; /* Color temporal */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(''); /* Puedo agregar imagen de fondo */
     background-size: cover;
     background-position: center;
 }
@@ -64,7 +64,7 @@ section {
     padding: 0.4em 0.8em;
 }
 
-/* Responsividad adicional */
+/* Diseño responsive */
 @media (max-width: 768px) {
     .banner h1 {
         font-size: 2.5rem;
